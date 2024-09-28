@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>joyful pet</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <img
+            class="header__desktop-logo"
+            src="./image/red-logo.svg"
+            alt="Logo"
+          />
+          <ul class="header__links">
+            <li class="header__link"><a href="#">Home</a></li>
+            <li class="header__link"><a href="#">Friends</a></li>
+            <li class="header__link"><a href="#">About Us</a></li>
+            <li class="header__link"><a href="#">Contacts</a></li>
+          </ul>
+          <div class="header__mobile-header">
+            <img src="./image/red-logo.svg" alt="Logo" />
+
+            <div class="header__burger__menu">
+              <button type="button" class="burger">
+                <svg width="20" height="15">
+                  <use href="./image/icons.svg#icon-menu"></use>
+                </svg>
+              </button>
+              <div class="header__mobile-menu">
+                <button type="button" class="close-menu">
+                  <img src="./image/close.svg" alt="close" />
+                </button>
+                <ul class="header__links">
+                  <li class="header__link"><a href="#">Home</a></li>
+                  <li class="header__link"><a href="#">Friends</a></li>
+                  <li class="header__link"><a href="#">About Us</a></li>
+                  <li class="header__link"><a href="#">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="header__order-call">
+            <a class="header__number" href="tel:+3853523344599"
+              >+385 35-23-34-45-99</a
+            >
+            <button type="button" class="header__button">Order a call</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
