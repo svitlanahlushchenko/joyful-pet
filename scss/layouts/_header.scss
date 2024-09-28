@@ -17,31 +17,7 @@
       display: block;
     }
   }
-  &__mobile-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 17px;
-    gap: 16px;
-    @media screen and (min-width: $bp-tablet) {
-      display: none;
-    }
-  }
 
-  &__burger__menu {
-    position: relative;
-  }
-  &__mobile-menu {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    &.active {
-      display: flex;
-      justify-content: flex-end;
-      padding: 78px 17px 0px 0px;
-    }
-  }
   &__links {
     display: none;
     @media screen and (min-width: $bp-tablet) {
