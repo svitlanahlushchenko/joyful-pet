@@ -1,11 +1,15 @@
 @import './utils/fonts';
-
 @import './utils/variables';
 @import './utils/base';
 
 @import './components/buttons';
+@import './components/swiper-wripper';
 
+@import './layouts/catalog-section';
 @import './layouts/container';
+@import './layouts/footer';
+@import './layouts/gallery-section';
 @import './layouts/header';
 @import './layouts/hero-section';
+@import './layouts/info-section';
 @import './layouts/mobile-header';

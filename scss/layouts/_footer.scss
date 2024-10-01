@@ -1,0 +1,46 @@
+.footer {
+  &__container {
+    padding: 30px 15px;
+    background-color: $color-footer-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 55px;
+    }
+  }
+  &__logo {
+    fill: $color-base-light;
+    padding-bottom: 25px;
+    @media screen and (min-width: $bp-desktop) {
+      padding: 0px 95px 0px 0px;
+    }
+  }
+  &__menu {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+    @media screen and (min-width: $bp-desktop) {
+      padding: 0px;
+      gap: 40px;
+    }
+  }
+  &__link {
+    color: $color-base-light;
+    font-size: 12px;
+    &:hover {
+      color: $color-secondary-light;
+    }
+  }
+  &__number {
+    color: $color-base-light;
+    font-weight: 700;
+    padding-bottom: 25px;
+    @media screen and (min-width: $bp-desktop) {
+      padding: 0px;
+    }
+  }
+}

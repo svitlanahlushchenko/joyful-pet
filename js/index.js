@@ -14,3 +14,24 @@ closeMenuButton.addEventListener('click', () => {
   menu.classList.remove('active');
   body.classList.remove('menu-open'); // Убираем класс, возвращая стандартный фон
 });
+
+// Инициализация Swiper
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 32,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 32,
+    },
+  },
+});

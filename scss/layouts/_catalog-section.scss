@@ -1,0 +1,30 @@
+.catalog-section {
+  &__menu-section {
+    padding: 102px 15px 0px;
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      gap: 65px;
+    }
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 20px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 25px;
+    }
+  }
+  &__menu {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  &__menu-item {
+    font-size: 17px;
+    cursor: pointer;
+    padding-bottom: 45px;
+    &:hover {
+      color: $color-secondary-dark;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.swiper-container {
+  position: relative;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  max-width: 290px;
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.swiper-photo {
+  padding: 36px;
+}
+.swiper-title {
+  font-size: 17px;
+  font-weight: 900;
+  padding-bottom: 18px;
+  text-align: center;
+}
+.swiper-price {
+  font-size: 16px;
+  font-weight: 900;
+  color: $color-secondary-dark;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.swiper-crossed-out-price {
+  text-decoration: line-through;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.swiper-button-next {
+  right: 10px;
+}
+.swiper-button-prev {
+  left: 10px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: $color-base-dark;
+}

@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>joyful pet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
+    <title>Joyful Pet</title>
   </head>
   <body>
     <header class="header">
@@ -81,6 +85,164 @@
         </div>
       </div>
     </section>
+
+    <section class="catalog-section">
+      <div class="container">
+        <div class="catalog-section__container">
+          <div class="catalog-section__menu-section">
+            <h2 class="catalog-section__title">Product Catalog</h2>
+            <div class="catalog-section__menu">
+              <p class="catalog-section__menu-item">All</p>
+              <p class="catalog-section__menu-item">Toys</p>
+              <p class="catalog-section__menu-item">Collars</p>
+              <p class="catalog-section__menu-item">Food</p>
+            </div>
+          </div>
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-photo"
+                  src="./image/red-collar.jpg"
+                  alt="Red collar"
+                />
+                <h3 class="swiper-title">Dog collar</h3>
+                <p class="swiper-price">
+                  5.6$
+                  <span class="swiper-crossed-out-price">6.2$</span>
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="swiper-photo"
+                  src="./image/chew-toy.jpg"
+                  alt="Chew toy"
+                />
+                <h3 class="swiper-title">Chew toy</h3>
+                <p class="swiper-price">
+                  4.4$
+                  <span class="swiper-crossed-out-price">4.9$</span>
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="swiper-photo"
+                  src="./image/animal-transporter.jpg"
+                  alt="Animal transporter"
+                />
+                <h3 class="swiper-title">Animal transporter</h3>
+                <p class="swiper-price">
+                  11.5$
+                  <span class="swiper-crossed-out-price">13.7$</span>
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="swiper-photo"
+                  src="./image/dog-food.jpg"
+                  alt="Dog food"
+                />
+                <h3 class="swiper-title">Dog food</h3>
+                <p class="swiper-price">
+                  9.3$
+                  <span class="swiper-crossed-out-price">10.6$</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-section__container">
+          <h2 class="gallery-section__title">Our gallery</h2>
+          <div class="gallery-section__photos">
+            <div class="gallery-section__big-photos">
+              <img
+                class="gallery-section__big-photo"
+                src="./image/man-dog.jpg"
+                alt="Man with a dog"
+              />
+              <div class="gallery-section__desktop-container">
+                <img src="./image/child-dog.jpg" alt="Child with a dog" />
+                <img
+                  class="gallery-section__hidden-photo"
+                  src="./image/woman-cat.jpg"
+                  alt="Woman with a cat"
+                />
+              </div>
+            </div>
+            <div class="gallery-section__small-photos">
+              <img
+                class="gallery-section__big-photo"
+                src="./image/family-dog.jpg"
+                alt="Family with a dog"
+              />
+              <div class="gallery-section__desktop-container">
+                <img src="./image/cat-dog.jpg" alt="A cat with a dog" />
+                <img src="./image/cat-happy-dog.jpg" alt="A cat with a dog" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="container">
+        <div class="info-section__container">
+          <div class="info-section__text">
+            <h2 class="info-section__title">About Joyful Pet Cattery</h2>
+            <p class="info-section__description">
+              Our main specialization is the production of clematis. Our
+              collection includes more than 450 species and varieties of
+              clematis, but for commercial purposes, we produce just over 280
+              specimens of clematis. These include large-flowered and
+              small-flowered clematis as well as climbing forms of clematis
+              across a wide range.
+            </p>
+            <p class="info-section__description">
+              We also have a secondary specialty in climbing plants that can be
+              grown in garden conditions in the Polish climate; we produce more
+              than a hundred species and varieties of such plants.
+            </p>
+            <button></button>
+          </div>
+
+          <img src="./image/women.jpg" alt="#" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <svg class="footer__logo" width="164" height="46">
+            <use href="./image/icons.svg#icon-Logo"></use>
+          </svg>
+          <ul class="footer__menu">
+            <li class="footer__link"><a href="#">Home</a></li>
+            <li class="footer__link"><a href="#">Friends</a></li>
+            <li class="footer__link"><a href="#">About Us</a></li>
+            <li class="footer__link"><a href="#">Contacts</a></li>
+          </ul>
+          <a class="footer__number" href="tel:+3853523344599"
+            >+385 35-23-34-45-99</a
+          >
+          <button type="button" class="footer__button">Order a call</button>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>

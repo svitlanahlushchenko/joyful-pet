@@ -44,3 +44,13 @@
     background-color: $color-base-light;
   }
 }
+.footer__button {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 11px;
+  color: $color-base-light;
+  border: 1px solid $color-base-light;
+  &:hover {
+    text-decoration: underline;
+  }
+}
