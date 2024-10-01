@@ -1,5 +1,10 @@
 .swiper-container {
   position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  max-width: 1376px;
 }
 .swiper-slide {
   display: flex;
