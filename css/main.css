@@ -280,6 +280,7 @@ li {
         -ms-flex-align: center;
             align-items: center;
     gap: 55px;
+    padding: 64px;
   }
 }
 .footer__logo {
