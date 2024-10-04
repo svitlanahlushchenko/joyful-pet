@@ -535,6 +535,10 @@ li {
   background-color: #89e8ec;
 }
 
+.header.menu-open.menu-open {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .info-section__container {
   padding: 80px 15px;
 }
